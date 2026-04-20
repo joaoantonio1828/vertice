@@ -6,16 +6,16 @@
 import { db } from './supabase.js';
 import { initTheme, setState, getState } from './store.js';
 import { route, navigate, startRouter } from './router.js';
-import { renderAuth } from '../src/auth/auth.js';
-import { renderLayout, updateActiveNav, setPageTitle } from '../src/layout.js';
-import { renderDashboard } from '../src/dashboard/dashboard.js';
-import { renderLancamentos } from '../src/lancamentos/lancamentos.js';
-import { renderCartoes } from '../src/cartoes/cartoes.js';
-import { renderFaturas } from '../src/faturas/faturas.js';
-import { renderContas } from '../src/contas/contas.js';
-import { renderRelatorios } from '../src/relatorios/relatorios.js';
-import { renderMetas } from '../src/metas/metas.js';
-import { openTransactionModal } from '../src/lancamentos/modal.js';
+import { renderAuth } from '/src/auth/auth.js';
+import { renderLayout, updateActiveNav, setPageTitle } from '/src/layout.js';
+import { renderDashboard } from '/src/dashboard/dashboard.js';
+import { renderLancamentos } from '/src/lancamentos/lancamentos.js';
+import { renderCartoes } from '/src/cartoes/cartoes.js';
+import { renderFaturas } from '/src/faturas/faturas.js';
+import { renderContas } from '/src/contas/contas.js';
+import { renderRelatorios } from '/src/relatorios/relatorios.js';
+import { renderMetas } from '/src/metas/metas.js';
+import { openTransactionModal } from '/src/lancamentos/modal.js';
 
 // ─── Inicialização ────────────────────────────────────────────
 async function init() {
